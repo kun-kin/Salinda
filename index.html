@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salinda</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-main">
+                <div class="header-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 d-flex d-lg-none">
+                                <div class="menu-toggle">
+                                    <span class="bar"><i class="fa-solid fa-bars"></i></span>
+                                    <span class="close" style="display: none;"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <nav id="main-navigation" class="nav-main">
+                                    <ul class="menu">
+                                        <li class="menu__item">
+                                            <a href="" class="book-1">book</a>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./room.html">room</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Pearl Suite Villa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Suite Sea View Hotel</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Garden Villa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Premium Deluxe Sea</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="">Deluxe Sea View</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Deluxe Garden View</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Deluxe Hill View</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./dining.html">dining</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Sparkling Breakfast</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Salinda Restaurant</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">il Muro Italiano</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Pakka Indian</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Cyan by the Pool</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">High Note Bar - Cigar Lounge</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./sustainability.html">Sustainability</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">Architecture &amp; Design</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">Daily Operations</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">The Purple Purpose</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./explore.html">explore</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-explore.html">Phu Quoc Guide</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-explore.html">Salinda Spa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="link-section" href="./details-explore.html">Facilities</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./celebration.html">celebration</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Wedding</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Meetings And Events</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Celebrate with us</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Piece of Cake</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="./offer.html">offer</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col d-none d-lg-flex">
+                                <ul class="menu-header">
+                                    <li>
+                                        <a href="./index.html" class="active">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./room.html">room</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-room.html">Pearl Suite Villa</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Suite Sea View Hotel</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Garden Villa</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Premium Deluxe Sea</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="">Deluxe Sea View</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Deluxe Garden View</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Deluxe Hill View</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./dining.html">dining</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-dining.html">Sparkling Breakfast</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Salinda Restaurant</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">il Muro Italiano</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Pakka Indian</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Cyan by the Pool</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">High Note Bar - Cigar Lounge</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./sustainability.html">Sustainability</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">Architecture &amp; Design</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">Daily Operations</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">The Purple Purpose</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-center">
+                                <a href="./index.html" class="logo">
+                                    <img src="./images/salinda-resort-phu-quoc-island.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col d-none d-lg-flex">
+                                <ul class="menu-header">
+
+                                    <li class="has-submenu">
+                                        <a href="./explore.html">explore</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-explore.html">Phu Quoc Guide</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-explore.html">Salinda Spa</a>
+                                            </li>
+                                            <li>
+                                                <a class="link-section" href="./details-explore.html">Facilities</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./celebration.html">celebration</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Wedding</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Meetings And Events</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Celebrate with us</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Piece of Cake</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./offer.html">offer</a>
+
+                                    </li>
+                                    <li class="book">
+                                        <a href="">
+                                            book
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3 d-flex d-lg-none">
+                                <div class="lang">
+                                    <a href="javascript:;">EN<i class="fa-solid fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="/vi">VI</a></li>
+                                        <li><a href="/en">EN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <a href="javascript:;">EN<i class="fa-solid fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="/vi">VI</a></li>
+                        <li><a href="/en">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="banner-home">
+                <div class="parttern wow animate__fadeIn parttern-1"></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <img src="./images/banner-1.jpg" alt="" class="wow smoke-animation smoke-home">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <img src="./images/banner-2.jpg" alt="" class="wow smoke-animation smoke-home">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <img src="./images/banner-3.jpg" alt="" class="wow smoke-animation smoke-home">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner">
+                                <img src="./images/banner-4.jpg" alt="" class="wow smoke-animation smoke-home">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 position-relative order-1 order-md-0">
+                            <div class="mask mask-image mask-5 smoke-animation">
+                                <img src="./images/your-boutique-journey.jpg" alt="">
+                            </div>
+                            <div class="parttern wow animate__fadeIn parttern-2"></div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 offset-lg-2 align-items-center d-flex order-0 order-md-1">
+                            <div class="content wow animate__fadeIn animation">
+                                <h2 class="title">
+                                    YOUR BOUTIQUE JOURNEY
+                                </h2>
+                                <p>
+                                    Combining the charm, the comfort of modern facilities, and authentic Vietnamese service, our guests are enchanted with a soulful luxury experience and the distinctive character of a boutique resort.
+                                </p>
+                                <a class="btn-more" href="">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="room">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 d-flex align-items-end">
+                            <div class="inner-box">
+                                <div class="content wow animate__fadeIn animation">
+                                    <h2 class="title">Our Rooms</h2>
+                                    <p>The resort features 121 luxury rooms, suites, and villas designed in contemporary style with an added local touch that creates an almost seamless transition from the inside out. Each room category has unique wall art,
+                                        showcasing the beauty of Vietnam and harmoniously blending luxury amenities with the natural wonders of the island.</p>
+                                </div>
+                                <div class="mask mask-image-2 mask-5 wow smoke-animation d-none d-md-block">
+                                    <img src="./images/our-rooms.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 position-relative">
+                            <div class="mask mask-image-3 mask-5 wow smoke-animation">
+                                <img src="./images/rooms-collection.jpg" alt="">
+                            </div>
+                            <div class="parttern wow animate__fadeIn parttern-3"></div>
+                            <div class="parttern wow animate__fadeIn parttern-4"></div>
+                            <div class="content deluxe wow animate__fadeIn animation">
+                                <h3 class="title medium">Rooms collection</h3>
+                                <ul class="list-place">
+                                    <li><a href="./details-room.html">Premium Deluxe Sea</a></li>
+                                    <li><a href="./details-room.html">Deluxe Sea View</a></li>
+                                    <li><a href="./details-room.html">Deluxe Garden View</a></li>
+                                    <li><a href="./details-room.html">Deluxe Hill View</a></li>
+                                    <li><a href="./details-room.html">Garden Villa</a></li>
+                                    <li><a href="./details-room.html">Suite Sea View Hotel</a></li>
+                                    <li><a href="./details-room.html">Pearl Suite Villa</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cuisine">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h2 class="title wow animate__fadeIn animation">The art<br> of cuisine</h2>
+
+                            <div class="the-art-box">
+                                <div class="parttern wow animate__fadeIn animation box-1"></div>
+                                <div class="mask the-art-img mask-5 wow smoke-animation">
+                                    <img src="./images/pattern-8.jpg" alt="">
+                                </div>
+                                <a href="./details-service.html" class="title medium wow animate__fadeIn animation">SPARKLING BREAKFAST</a>
+                                <p class="wow animate__fadeIn animation">Embark on a new journey through Vietnam by trying authentic food, with free flow of sparkling wine and live piano music.</p>
+                            </div>
+                            <div class="the-art-box">
+                                <div class="parttern wow animate__fadeIn animation box-1"></div>
+                                <div class="mask the-art-img mask-5 wow smoke-animation">
+                                    <img src="./images/pattern-2.jpg" alt="">
+                                </div>
+                                <a href="./details-service.html" class="title medium wow animate__fadeIn animation">IL MURO - ITALIANO</a>
+                                <p class="wow animate__fadeIn animation">Rediscover Italian homemade recipes prepared with a local twist inspired by Chef Simone’s adventures on Phu Quoc Island...</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="the-art-box">
+                                <div class="parttern wow animate__fadeIn animation box-1"></div>
+                                <div class="mask the-art-img mask-5 wow smoke-animation">
+                                    <img src="./images/pattern-7.jpg" alt="">
+                                </div>
+                                <a href="./details-service.html" class="title medium wow animate__fadeIn animation">PAKKA - INDIAN</a>
+                                <p class="wow animate__fadeIn animation">Embark on an epicurean journey through India’s North with Chef Liladhar, who creatively combines street food favorites with elegance...</p>
+                            </div>
+                            <div class="the-art-box">
+                                <div class="parttern wow animate__fadeIn animation box-1"></div>
+                                <div class="mask the-art-img mask-5 wow smoke-animation">
+                                    <img src="./images/pattern-3.jpg" alt="">
+                                </div>
+                                <a href="./details-service.html" class="title medium wow animate__fadeIn animation">HIGH NOTE BAR LOUNGE</a>
+                                <p class="wow animate__fadeIn animation">In the evenings, get on a musical journey in our groovy lounge with live music and a boundless selection of music-inspired cocktails...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="spa">
+                <div class="container wow smoke-animation-1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 spa-left order-1 order-md-0">
+                            <div class="content wow animate__fadeIn animation">
+                                <h2 class="title">SALINDA SPA</h2>
+                                <p>With certified practitioners from Thailand and dedication to the natural wellness of Vietnam, Salinda Spa is the sanctuary for healing your body and soul…</p>
+                                <div class="button-menu">
+                                    <a class="btn-more" href="/uploads/menus/9/menu-spa.pdf">Spa Menu</a>
+                                </div>
+                            </div>
+                            <div class="swiper thumd-image-spa">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="mask mask-image-5 mask-5">
+                                            <img src="./images/image-1.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="mask mask-image-5 mask-5">
+                                            <img src="./images/image-2.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="mask mask-image-5 mask-5">
+                                            <img src="./images/image-3.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="mask mask-image-5 mask-5">
+                                            <img src="./images/image-4.jpg" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 spa-right order-0 order-md-1">
+                            <div class="spa-slide">
+                                <div class="parttern wow animate__fadeIn parttern-7"></div>
+                                <div class="parttern wow animate__fadeIn parttern-8"></div>
+                                <div class="swiper image-spa">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="mask mask-image-4 mask-5">
+                                                <img src="./images/image-1.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="mask mask-image-4 mask-5">
+                                                <img src="./images/image-2.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="mask mask-image-4 mask-5">
+                                                <img src="./images/image-3.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="mask mask-image-4 mask-5">
+                                                <img src="./images/image-4.jpg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="wedding">
+                <div class="container-fluid">
+                    <div class="col-12 p-0">
+                        <div class="wedding-slide wow smoke-animation-1">
+                            <div class="swiper-title wow animate__fadeIn animation">
+                                <h2 class="title big"><span>Islandly</span><br>Wedding</h2>
+                                <p>The most picturesque place for your wedding on Phu Quoc Island</p>
+                            </div>
+                            <div class="parttern wow animate__fadeIn parttern-9"></div>
+                            <div class="swiper swiper-wedding">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="mask mask-image-6">
+                                            <img src="./images/wedding.jpg" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="award">
+                <div class="container">
+                    <div class="row wow animate__fadeIn animation">
+                        <div class="col-12">
+                            <div class="swiper swiper-award">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/luxury-beachfront-hotel-of-the-year-2018.png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Luxury Beachfront Hotel of the Year 2018
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/global-best-luxury-boutique-resort-2018.png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Global Best Luxury Boutique Resort 2018
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/southeast-asia-s-br-best-relaxation-retreat-2018.png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Southeast Asia’s Best Relaxation Retreat 2018
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/world-travel-award-2019.png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            World Travel Award 2019
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/world-travel-award-2019 (1).png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            World Travel Award 2019
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumd">
+                                            <img src="./images/asia-s-best-boutique-honeymoon-hotel-2020.png" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Asia's Best Boutique Honeymoon Hotel 2020
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footer-social">
+                        <div class="inner">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img src="./images/salinda-resort-phu-quoc-island.png" alt="">
+                                </a>
+                            </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/fab-fa-facebook-f.svg');mask-image:url('./images/fab-fa-facebook-f.svg');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/fab-fa-tripadvisor.svg');mask-image:url('./images/fab-fa-tripadvisor.svg');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/zalo.png');mask-image:url('./images/zalo.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/facebook-messenger.png');mask-image:url('./images/facebook-messenger.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/whatsapp.png');mask-image:url('./images/whatsapp.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/youtube.png');mask-image:url('./images/youtube.png');">
+                                    </a>
+                                </li>
+                            </ul>
+                            <form action="">
+                                <div class="input-group">
+                                    <label class="label-footer" for="">Sign up for our newsletter and special offers</label>
+                                    <input type="text" class="form-control" name="email" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" required="">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 footer-infor">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-4">
+                                <div class="menu-top">
+                                    <h4>Salinda Phu Quoc Island</h4>
+                                    <div class="footer-content">
+                                        <p>Cua Lap Hamlet, Duong To Commune, Phu Quoc Island, Kien Giang Province, Vietnam</p>
+                                        <a href="tel:+842973990011"> <b>Tel:</b> +84 297 399 0011</a>
+                                        <p><b>Fax:</b> +84 297 399 9911</p>
+                                        <a href="mailto:contact@salindaresort.com"> <b>Email:</b> contact@salindaresort.com </a>
+                                        <div class="menu-bottom">
+                                            <p>Copyright © 2020 All rights reserved.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="menu-top">
+                                    <h4>Quick Links</h4>
+                                    <div class="footer-content">
+                                        <a href="">Press Room</a>
+                                        <a href="">Update COVID-19</a>
+                                        <a href="">Newsletter</a>
+                                        <a href="">Careers</a>
+                                        <a href="">Our Brochure</a>
+                                        <a href="">Contact</a>
+                                        <a href="">Privacy Policy</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="menu-top">
+                                    <h4>Sales and Marketing Office</h4>
+                                    <div class="footer-content">
+                                        <p>4th Floor, 65C Cao Thang Street,<br>District 3, Ho Chi Minh City, Vietnam</p>
+                                        <a href="tel:+842839293097 "><b>Book online or call:</b> +84 28 3929 3097 </a>
+                                        <p>(08:00 - 18:00 GMT+7)</p>
+                                        <a href="mailto:sales@salindaresort.com"><b>Email:</b> sales@salindaresort.com</a>
+                                        <a href="mailto:reservation@salindaresort.com">reservation@salindaresort.com</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 footer-bct">
+                        <div class="icon-bct">
+                            <a href="">
+                                <img src="./images/logoSaleNoti.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./lib/js/jquery-3.6.0.min.js "></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./lib/js/style.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

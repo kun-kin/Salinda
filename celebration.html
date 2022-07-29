@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salinda</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-main">
+                <div class="header-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 d-flex d-lg-none">
+                                <div class="menu-toggle">
+                                    <span class="bar"><i class="fa-solid fa-bars"></i></span>
+                                    <span class="close" style="display: none;"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <nav id="main-navigation" class="nav-main">
+                                    <ul class="menu">
+                                        <li class="menu__item">
+                                            <a href="" class="book-1">book</a>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./room.html">room</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Pearl Suite Villa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Suite Sea View Hotel</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Garden Villa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Premium Deluxe Sea</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="">Deluxe Sea View</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Deluxe Garden View</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-room.html">Deluxe Hill View</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./dining.html">dining</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Sparkling Breakfast</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Salinda Restaurant</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">il Muro Italiano</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Pakka Indian</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">Cyan by the Pool</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-dining.html">High Note Bar - Cigar Lounge</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./sustainability.html">Sustainability</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">Architecture &amp; Design</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">Daily Operations</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-sustainability.html">The Purple Purpose</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./explore.html">explore</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-explore.html">Phu Quoc Guide</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-explore.html">Salinda Spa</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="link-section" href="./details-explore.html">Facilities</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item has-sub-mb">
+                                            <a href="./celebration.html">celebration</a>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            <ul class="submenu">
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Wedding</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Meetings And Events</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Celebrate with us</a>
+                                                </li>
+                                                <li class="menu__item">
+                                                    <a class="" href="./details-celebration.html">Piece of Cake</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="./offer.html">offer</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col d-none d-lg-flex">
+                                <ul class="menu-header">
+                                    <li>
+                                        <a href="./index.html" class="active">
+                                            home
+                                        </a>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./room.html">room</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-room.html">Pearl Suite Villa</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Suite Sea View Hotel</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Garden Villa</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Premium Deluxe Sea</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="">Deluxe Sea View</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Deluxe Garden View</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-room.html">Deluxe Hill View</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./dining.html">dining</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-dining.html">Sparkling Breakfast</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Salinda Restaurant</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">il Muro Italiano</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Pakka Indian</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">Cyan by the Pool</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-dining.html">High Note Bar - Cigar Lounge</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./sustainability.html">Sustainability</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">Architecture &amp; Design</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">Daily Operations</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-sustainability.html">The Purple Purpose</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-lg-3 d-flex align-items-center">
+                                <a href="./index.html" class="logo">
+                                    <img src="./images/salinda-resort-phu-quoc-island.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col d-none d-lg-flex">
+                                <ul class="menu-header">
+
+                                    <li class="has-submenu">
+                                        <a href="./explore.html">explore</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-explore.html">Phu Quoc Guide</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-explore.html">Salinda Spa</a>
+                                            </li>
+                                            <li>
+                                                <a class="link-section" href="./details-explore.html">Facilities</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./celebration.html">celebration</a>
+                                        <ul class="submenu">
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Wedding</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Meetings And Events</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Celebrate with us</a>
+                                            </li>
+                                            <li>
+                                                <a class="" href="./details-celebration.html">Piece of Cake</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="./offer.html">offer</a>
+
+                                    </li>
+                                    <li class="book">
+                                        <a href="">
+                                            book
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-3 d-flex d-lg-none">
+                                <div class="lang-mb">
+                                    <a href="javascript:;">EN<i class="fa-solid fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="/vi">VI</a></li>
+                                        <li><a href="/en">EN</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <a href="javascript:;">EN<i class="fa-solid fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="/vi">VI</a></li>
+                        <li><a href="/en">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="banner-subpage wow animate__fadeIn animation">
+                <div class="mask wow smoke-animation subpage">
+                    <img src="./images/events.jpg" alt="">
+                </div>
+                <div class="title-subpage">
+                    <h1>your event</h1>
+                </div>
+            </section>
+            <section class="list-main">
+                <div class="section-title wow animate__fadeIn animation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="parttern parttern-offer-1">
+                                    <img src="./images/pattern-2.png" alt="">
+                                </div>
+                                <div class="parttern parttern-offer-3">
+                                    <img src="./images/pattern-4.png" alt="">
+                                </div>
+                                <div class="head-inner">
+                                    <div class="content">
+                                        <!-- <h2 class="title">YOUR GASTRONOMIC JOURNEY</h2> -->
+                                        <p>
+                                            With unparalleled island settings, Salinda Resort brings meetings and weddings to life, infusing them with warm Vietnamese hospitality for a real and inspiring sense of place. Transform your event into a spectacular experience with our collection of packages,
+                                            while keeping a simple, luxurious, and down-to-earth elegance on Phu Quoc Island.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-grid">
+                    <div class="room-section event-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="room-thumd">
+                                        <div class="mask room-img mask-5 wow smoke-animation">
+                                            <img src="./images/wedding-and-honeymoons.jpg" alt="">
+                                        </div>
+                                        <div class="room-content">
+                                            <div class="parttern parttern-room"></div>
+                                            <div class="parttern parttern-room1"></div>
+                                            <h2 class="title normal">wedding</h2>
+                                            <p>
+                                                Surrounded by the pristine golden sand beach and palm trees, Salinda Resort offers a romantic location to celebrate your union. Savor special moments together in the privacy of your villa or suite overlooking the breathtaking sunset, and indulge in signature
+                                                Salinda comforts, including exquisite amenities and romantic touches at every turn.
+                                            </p>
+                                            <a class="btn-more" href="./details-event.html">Find out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room-section event-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="room-thumd">
+                                        <div class="mask room-img mask-5 wow smoke-animation">
+                                            <img src="./images/mettings-and-events.jpg" alt="">
+                                        </div>
+                                        <div class="room-content">
+                                            <div class="parttern parttern-room"></div>
+                                            <div class="parttern parttern-room1"></div>
+                                            <h2 class="title normal">MEETINGS AND EVENTS</h2>
+                                            <p>
+                                                We can accommodate a wide scope of meeting solutions and special occasions, as our packages are tailored to create an exclusive event designed for your specific needs. A full range of professional support combined with our acclaimed individualized service
+                                                allows you to mix business and pleasure within the cultural wonders of the island.
+                                            </p>
+                                            <a class="btn-more" href="./details-event.html">Find out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room-section event-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="room-thumd">
+                                        <div class="mask room-img mask-5 wow smoke-animation">
+                                            <img src="./images/celebrate-with-us.jpg" alt="">
+                                        </div>
+                                        <div class="room-content">
+                                            <div class="parttern parttern-room"></div>
+                                            <div class="parttern parttern-room1"></div>
+                                            <h2 class="title normal">CELEBRATE WITH US</h2>
+                                            <p>
+                                                Our experienced and dedicated team will be happy to put together a bespoke event for any special moment you may wish to celebrate at Salinda, be it a private birthday party, a wedding anniversary or a luxurious vow renewal ceremony.
+                                            </p>
+                                            <a class="btn-more" href="./details-event.html">Find out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room-section event-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="room-thumd">
+                                        <div class="mask room-img mask-5 wow smoke-animation">
+                                            <img src="./images/patisserie.jpg" alt="">
+                                        </div>
+                                        <div class="room-content">
+                                            <div class="parttern parttern-room"></div>
+                                            <div class="parttern parttern-room1"></div>
+                                            <h2 class="title normal">PIECE OF CAKE</h2>
+                                            <p>
+                                                Every celebration deserves a beautiful cake. Impress your loved ones with artfully finished exclusive selection of Salinda cakes, viennoiserie and pastry with only premium ingredients. Contact us for more details on your cake.
+                                            </p>
+                                            <a class="btn-more" href="./details-event.html">Find out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footer-social">
+                        <div class="inner">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img src="./images/salinda-resort-phu-quoc-island.png" alt="">
+                                </a>
+                            </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/fab-fa-facebook-f.svg');mask-image:url('./images/fab-fa-facebook-f.svg');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/fab-fa-tripadvisor.svg');mask-image:url('./images/fab-fa-tripadvisor.svg');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/zalo.png');mask-image:url('./images/zalo.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/facebook-messenger.png');mask-image:url('./images/facebook-messenger.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/whatsapp.png');mask-image:url('./images/whatsapp.png');">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" style="-webkit-mask-image:url('./images/youtube.png');mask-image:url('./images/youtube.png');">
+                                    </a>
+                                </li>
+                            </ul>
+                            <form action="">
+                                <div class="input-group">
+                                    <label class="label-footer" for="">Sign up for our newsletter and special offers</label>
+                                    <input type="text" class="form-control" name="email" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" required="">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fa-solid fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 footer-infor">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-4">
+                                <div class="menu-top">
+                                    <h4>Salinda Phu Quoc Island</h4>
+                                    <div class="footer-content">
+                                        <p>Cua Lap Hamlet, Duong To Commune, Phu Quoc Island, Kien Giang Province, Vietnam</p>
+                                        <a href="tel:+842973990011"> <b>Tel:</b> +84 297 399 0011</a>
+                                        <p><b>Fax:</b> +84 297 399 9911</p>
+                                        <a href="mailto:contact@salindaresort.com"> <b>Email:</b> contact@salindaresort.com </a>
+                                        <div class="menu-bottom">
+                                            <p>Copyright © 2020 All rights reserved.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="menu-top">
+                                    <h4>Quick Links</h4>
+                                    <div class="footer-content">
+                                        <a href="">Press Room</a>
+                                        <a href="">Update COVID-19</a>
+                                        <a href="">Newsletter</a>
+                                        <a href="">Careers</a>
+                                        <a href="">Our Brochure</a>
+                                        <a href="">Contact</a>
+                                        <a href="">Privacy Policy</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="menu-top">
+                                    <h4>Sales and Marketing Office</h4>
+                                    <div class="footer-content">
+                                        <p>4th Floor, 65C Cao Thang Street,<br>District 3, Ho Chi Minh City, Vietnam</p>
+                                        <a href="tel:+842839293097 "><b>Book online or call:</b> +84 28 3929 3097 </a>
+                                        <p>(08:00 - 18:00 GMT+7)</p>
+                                        <a href="mailto:sales@salindaresort.com"><b>Email:</b> sales@salindaresort.com</a>
+                                        <a href="mailto:reservation@salindaresort.com">reservation@salindaresort.com</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 footer-bct">
+                        <div class="icon-bct">
+                            <a href="">
+                                <img src="./images/logoSaleNoti.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./lib/js/jquery-3.6.0.min.js "></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./lib/js/style.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
